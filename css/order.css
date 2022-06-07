@@ -1,0 +1,98 @@
+:root{
+    --orange:#FFFBF5;
+}
+
+.order{
+    height: 100%;
+    background-color: var(--orange);
+    margin-bottom: 60px;
+    align-items: center;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #111010;
+}
+
+.order table {
+    border: 1px solid #000000;
+}
+
+.order table th{
+    width: 300px;
+}
+
+.order table td{
+  text-align: center;
+}
+
+.order table .form-group .btn{
+  background: #CCAF8F;
+}
+.order table .form-group .btn:hover{
+  background: #f7f7f7;
+    color: #000000;
+}
+
+
+.order-cus .customer{
+    background: var(--orange);
+    height: 250px;
+  }
+  
+  .order-cus  .customer .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+  }
+  
+  .order-cus .customer .row form{
+    flex:1 1 50rem;
+    padding:2rem;
+    border-radius: .5rem;
+  }
+  
+  .order-cus .customer .heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .order-cus .customer .row form .btn{
+    background: #CCAF8F;
+    float: right;
+  }
+  
+  .order-cus .customer .row form .btn:hover{
+    background: #f7f7f7;
+    color: #000000;
+  }
+  
+  .order-cus .customer .row form .inputBox{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .order-cus .customer .row form .inputBox input{
+      width: 400px;
+  }
+  
+  .order table .form-group{
+      align-items: center;
+      text-align: center;
+  }
+
+  .order table .form-group i {
+    color:#000000;
+}

@@ -1,0 +1,185 @@
+.cart .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+  }
+
+#first{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 36px;
+    color: #000000;
+    float: left;
+}
+
+.cart table img{
+    height: 230px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.cart table{
+    width: 1050px;
+}
+
+.cart table .img-container{
+    width: 230px;
+}
+.cart table .price-container{
+    width: 200px;
+    float: right;
+}
+.cart table .count-container{
+    width: 300px;
+}
+
+.cart table .count-container .count{
+    float: right;
+    border: 2px solid #f1b861;
+    text-align: center;
+    margin: 10px;
+}
+
+.cart table .count-container p,span{
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.cart table .name span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #000000;
+    width: 250px;
+    overflow: hidden;
+}
+
+.cart table .name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.cart table .price-container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 90px;
+}
+
+.cart .total a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size:  20px;
+    line-height: 32px;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.cart .total a:hover{
+    color:#ea4141;
+}
+
+.cart .total p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    float: right;
+}
+
+.cart .total{
+    width: 1050px;
+}
+
+
+
+.customer{
+    background: var(--orange);
+    height: 350px;
+  }
+  
+  .customer .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+  }
+  
+  .customer .row form{
+    flex:1 1 50rem;
+    padding:2rem;
+    border-radius: .5rem;
+  }
+  
+  .customer .heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .customer .row form .btn{
+    /* background: #CCAF8F; */
+    background-color: #000000;
+    float: right;
+  }
+  
+  .customer .row form .btn:hover{
+    background: #f7f7f7;
+    color: #000000;
+  }
+  
+  .customer .row form .inputBox{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .customer .row form .inputBox input, .customer .row form textarea{
+    width:30%;
+    margin:1rem 0;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    background:white;
+    text-transform: none;
+    border:1px solid rgb(18, 17, 17);
+  }
+  
+  .customer .row form textarea{
+    height: 10rem;
+    resize: none;
+    width:100%;
+  }
